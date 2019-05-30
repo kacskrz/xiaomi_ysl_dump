@@ -1,0 +1,21 @@
+{
+    "Image_Build_IDs": {
+        "adsp": "ADSP.VT.3.0-00138-00000-1", 
+        "boot": "BOOT.BF.3.3-00228-M8917LAAAANAZB-1", 
+        "common": "MSM8953.LA.3.1.2-00326-STD.PROD-2.205411.0.205937.1", 
+        "cpe": "CPE.TSF.1.0-00035-W9335AAAAAAAZQ-1", 
+        "glue": "GLUE.MSM8953.3.1.2-00015-NOOP_TEST-1", 
+        "modem": "MPSS.TA.3.0.c1-00422-8953_GEN_PACK-1.205007.1.205937.1", 
+        "rpm": "RPM.BF.2.4-00054-M8953AAAAANAZR-1", 
+        "tz": "TZ.BF.4.0.5-00136.1-M8937AAAAANAZT-1.196301.1", 
+        "video": "VIDEO.VE.4.4-00043-PROD-1", 
+        "wapi": "WLAN_ADDON.HL.1.0-00031-CNSS_RMZ_WAPI-1", 
+        "wcnss": "CNSS.PR.4.0.3-00197-M8953BAAAANAZW-1"
+    }, 
+    "Metabuild_Info": {
+        "Meta_Build_ID": "MSM8953.LA.3.1.2-00326-STD.PROD-2.205411.0.205937.1", 
+        "Product_Flavor": "asic", 
+        "Time_Stamp": "2019-05-24 13:43:58"
+    }, 
+    "Version": "1.0"
+}
