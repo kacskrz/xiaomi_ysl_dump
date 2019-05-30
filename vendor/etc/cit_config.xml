@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<parameter>
+  <item name="Config">
+    <param key="TpColorFile1" value="/sys/bus/i2c/devices/3-0038/tp_lock_down_info"/>
+    <param key="TpColorFile2" value="/sys/bus/i2c/devices/3-005d/tp_lock_down_info"/>
+    <param key="TpColorFile3" value="/sys/bus/i2c/devices/4-004a/misc"/>
+  </item>
+
+  <item name="SAR_SENSOR">
+    <param key="SarFactoryEnable" value="false"/>
+  </item>
+
+  <item name="LED">
+    <param key="hasBacklight" value="true"/>
+    <param key="hasWhiteLED" value="true"/>
+    <param key="hasRedLED" value="false"/>
+    <param key="hasGreenLED" value="false"/>
+    <param key="hasBlueLED" value="false"/>
+    <param key="hasBackTorch" value="true"/>
+    <param key="hasBackTorch2" value="false"/>
+    <param key="hasFrontTorch" value="true"/>
+    <param key="hasKeyLED" value="false"/>
+    <param key="FrontTorchFile" value="/sys/class/leds/led:torch_1/brightness"/>
+    <param key="FrontTorchCOMFile" value="/sys/class/leds/flashlight/brightness"/>
+    <param key="BackTorchFile1" value="/sys/class/leds/led:torch_0/brightness"/>
+    <param key="BackTorchCOMFile1" value="/sys/class/leds/flashlight/brightness"/>
+  </item>
+
+  <!-- [HTH-53606] update SensorTestTool pujiabin 2019.05.05 BEGIN -->
+  <item name="FPSelf">
+    <param key="TestName_Fpc" value="com.fingerprints.sensortesttool.activities.MainSTTActivity"/>
+    <param key="SelfTestName" value="com.goodix.gftest.SpiTestActivity"/>
+    <param key="CheckTestName" value="com.goodix.gftest.PixelTestActivity"/>
+  </item>
+  <!-- [HTH-53606] update SensorTestTool pujiabin 2019.05.05 END -->
+
+  <item name="Camera">
+    <param key="platform_twin_back_camera" value="false"/>
+  </item>
+
+  <item name="SecretCode">
+    <param key="DiagMode" value="diag,serial_smd,rmnet_ipa,adb"/>
+  </item>
+
+  <item name="Charge">
+    <param key="SuportCurrent" value="true"/>
+  </item> 
+</parameter>
